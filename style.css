@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container img {
+  flex: 0 0 auto;
+}
+
+/* Small */
+@media screen and (max-width: 793px) {
+  img {
+    width: 100%;
+  }
+}
+
+/* Medium */
+@media screen and (min-width: 794px) and (max-width: 1019px) {
+  body {
+    background-color: plum;
+  }
+  img {
+    width: 50%;
+  }
+}
+
+/* Large */
+@media screen and (min-width: 1020px) {
+  body {
+    background-color: yellowgreen;
+  }
+  img {
+    width: 33.33333333%;
+  }
+}
